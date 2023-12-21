@@ -1,5 +1,4 @@
 body {
-    background-color: #FBFAF5;
     background-image: url(/assets/9c727bbddff7726b4a2512abd5b998b4.jpg);
 }
 
@@ -7,6 +6,13 @@ h1, h2{
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+
+#tabla{
+    background-color: white;
+
+    
 }
 
 #ClaseContainer, #ClaseRow, #ClaseCol{
@@ -20,21 +26,22 @@ h1, h2{
 }
 
 #NavPrincipal {
-    background-color: #ea9f94;
+    background-color: #D2B48C;
 }
 
 .nav-link,
 .navbar-brand,
 .nav-link {
     color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .nav-link:hover,
 .navbar-brand:hover,
 .nav-link:hover {
-    color: #ce0651;
+    color: darkred
 }
 
 .navbar-toggler {
-    background-color: #ea9f94;
+    background-color: #DAA520;
 }
